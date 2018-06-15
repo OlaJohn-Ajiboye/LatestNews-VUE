@@ -1,7 +1,11 @@
 .container {
     padding: 20px 0
   }
-  
+  .header{
+    font-family: 'Shrikhand', cursive;
+    font-weight: bold;
+   
+  }
   .column:last-child:not(:first-child),
   .columns:last-child:not(:first-child) {
     float: left;
