@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OlaJohn-Ajiboye/LatestNews-VUE/issues"
   },
-  "homepage": "https://github.com/OlaJohn-Ajiboye/LatestNews-VUE#readme"
+  "homepage": "https://github.com/OlaJohn-Ajiboye/LatestNews-VUE#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
