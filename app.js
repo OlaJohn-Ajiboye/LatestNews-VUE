@@ -1,6 +1,6 @@
 const NYTBaseUrl = "https://api.nytimes.com/svc/topstories/v2/";
 const ApiKey = "a2b8b5474e70432eb44649144096279c"; // replace with NYT API key 
-const SECTIONS = "Home, Arts, Automobiles, Books, Business, Fashion, Food, Health, Insider, Magazine, Movies, National, Nyregion, Obituaries, Opinion, Politics, Realestate, Science, Sports, Sundayreview, Technology, Theater, Magazine, Travel, Upshot, World";
+const SECTIONS = "Home, arts, automobiles, books, business, fashion, food, health, insider, magazine, movies, national, nyregion, obituaries, opinion, politics, realestate, science, sports, sundayreview, technology, theater, magazine, travel, upshot, world";
 
 function buildUrl(url) {
   return NYTBaseUrl + url + ".json?api-key=" + ApiKey;

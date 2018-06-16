@@ -30,7 +30,7 @@
         </section>
       
         <h5 class="text-center uppercase" v-if="!loading">{{ title }}</b></h5>
-        <div v-if="loading" class="loader"><img src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/images/loader-large.gif" alt="loader"></div>
+        <div v-if="loading" class="loader"><img src="assets/loading.gif" alt="loader"></div>
       
         <news-list v-if="!loading" :results="results"></news-list>
       </div>
